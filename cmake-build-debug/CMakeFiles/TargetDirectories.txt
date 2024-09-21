@@ -1,0 +1,3 @@
+/home/tyronscott/CLionProjects/abstraction-and-encapsulation/cmake-build-debug/CMakeFiles/abstraction_and_encapsulation.dir
+/home/tyronscott/CLionProjects/abstraction-and-encapsulation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tyronscott/CLionProjects/abstraction-and-encapsulation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
