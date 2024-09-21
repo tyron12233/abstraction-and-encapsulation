@@ -167,6 +167,16 @@ void subMenu(BankAccount *account, const int choice) {
         wcout << "Select an option: ";
         wcin >> subChoice;
 
+        if (wcin.fail()) {
+            clearScreen();
+
+            wcin.clear();
+            wcin.ignore(numeric_limits<streamsize>::max(), '\n');
+            wcout << "Invalid input. Please enter a valid option." << endl;
+            pauseScreen();
+            continue;
+        }
+
         switch (subChoice) {
             case 1: {
                 clearScreen();
